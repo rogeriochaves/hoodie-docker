@@ -1,0 +1,25 @@
+{
+  "name": "hoodie-docker",
+  "version": "0.0.1",
+  "repository": "https://github.com/rogeriochaves/hoodie-docker",
+  "description": "",
+  "scripts": {
+    "start": "hoodie --admin-password $ADMIN_PASSWORD --db-url $COUCH_URL --url $CLIENT_URL --verbose"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "hoodie": "23.1.1"
+  },
+  "hoodie": {
+    "plugins": [
+      "hoodie-plugin-appconfig",
+      "hoodie-plugin-email",
+      "hoodie-plugin-users"
+    ]
+  },
+  "engines": {
+    "node": ">= 4.1.1",
+    "npm": ">= 3.5.3"
+  }
+}

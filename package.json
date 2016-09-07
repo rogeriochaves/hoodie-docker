@@ -4,7 +4,7 @@
   "repository": "https://github.com/rogeriochaves/hoodie-docker",
   "description": "",
   "scripts": {
-    "start": "hoodie --admin-password $ADMIN_PASSWORD --db-url $COUCH_URL --url $CLIENT_URL --verbose"
+    "start": "hoodie --admin-password $ADMIN_PASSWORD --bindAddress 0.0.0.0 --db-url $COUCH_URL --url $CLIENT_URL --verbose"
   },
   "author": "",
   "license": "ISC",

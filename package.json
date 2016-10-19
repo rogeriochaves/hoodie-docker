@@ -1,6 +1,6 @@
 {
   "name": "hoodie-docker",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "repository": "https://github.com/rogeriochaves/hoodie-docker",
   "description": "",
   "scripts": {

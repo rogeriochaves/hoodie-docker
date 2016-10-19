@@ -4,12 +4,12 @@
   "repository": "https://github.com/rogeriochaves/hoodie-docker",
   "description": "",
   "scripts": {
-    "start": "hoodie --admin-password $ADMIN_PASSWORD --bindAddress 0.0.0.0 --db-url $COUCH_URL --url $CLIENT_URL --verbose"
+    "start": "hoodie --address $ADDRESS --port $PORT --db-url $COUCH_URL --url $CLIENT_URL --verbose"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "hoodie": "23.1.1"
+    "hoodie": "24.2.5"
   },
   "hoodie": {
     "plugins": [
